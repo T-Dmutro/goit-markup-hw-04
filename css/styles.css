@@ -297,6 +297,7 @@ margin-bottom: 30px;}
     letter-spacing: 0.03em;
     color: var(--secondary-title-color);
 }
+
 .social{
     display: flex;
     justify-content:space-around;
@@ -304,17 +305,38 @@ margin-bottom: 30px;}
 }
 .social-link{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 30px;
     width: 44px;
     height: 44px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+    fill: #AFB1B8;
     text-decoration: none;
     list-style: none;
 
 }
+.social-link:first-child{margin-left: 32px;}
+.social-link:last-child{margin-right: 32px;}
+.social-link svg{
+    width: 20px;
+    height: 20px;
+}
+.social-link:hover{
+    border-radius: 50%;
+    fill: var(--adress-color);
+    background-color: var(--hover-effect-color);
+    
+}
+.social-link :focus{
+    background-color: var(--hover-effect-color);
+}
+.social-icon :hover{
+    fill: var(--adress-color);
+}   
+   
+
+
 .social-icon-instagram{
     background-position: center;
     background-size: cover;
@@ -338,7 +360,7 @@ margin-bottom: 30px;}
     padding-bottom: 94px;
 }
 .client-text{
-   display: flex;
+  
    margin-top: 0px;
    margin-bottom: 50px;
    justify-content: center;
@@ -360,9 +382,9 @@ margin-bottom: 30px;}
 }
 .client-company{
     display: flex;
+    align-items: center;
     justify-content: center;
     margin-right: 30px;
-    
     border: 1px solid #AFB1B8;
     box-sizing: border-box;
     border-radius: 4px;
