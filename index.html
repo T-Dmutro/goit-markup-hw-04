@@ -30,8 +30,9 @@
         </nav>
         
             <ul class="mail">                
-                <li class="mail-box"><a class="adress-contakt " href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="mail-box"><a class="adress-contakt last " href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="mail-box"><div class="mail-hover"><a class="adress-contakt " href="mailto:info@devstudio.com">
+                    <svg><use width="16" height="12" class="adress-icon" href="./img/icons.svg#mail"></use></svg>info@devstudio.com</a></div></li>
+                <li class="mail-box"><a class="adress-contakt last " href="tel:+380961111111"><svg><use width="16" height="12" class="adress-icon" href="./img/icons.svg#phone"></use></svg>+38 096 111 11 11</a></li>
             </ul>
         
         </div>
@@ -51,18 +52,42 @@
             <div class="container">
             <ul class="ul">
                 <li class="description">
+                    <div class="description-box">
+                        <svg>
+                            <use  width="70" height="70" class="description-icon" href="./img/icons.svg#warning">
+                            </use>
+                        </svg>
+                    </div>
                     <h3 class="advantage-title">Внимание к деталям</h3>
                     <p class="advantage-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
                 <li class="description">
+                    <div class="description-box">
+                     <svg>
+                        <use  width="70" height="70" class="description-icon" href="./img/icons.svg#clock">
+                        </use>
+                       </svg>
+                    </div>
                     <h3 class="advantage-title">Пунктуальность</h3>
                     <p class="advantage-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
                 <li class="description">
+                    <div class="description-box">
+                     <svg>
+                        <use  width="70" height="70" class="description-icon" href="./img/icons.svg#pc">
+                        </use>
+                     </svg>
+                    </div>
                     <h3 class="advantage-title">Планирование</h3>
                     <p class="advantage-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
                 <li class="description">
+                    <div class="description-box">
+                      <svg>
+                        <use  width="70" height="70" class="description-icon" href="./img/icons.svg#astronaut">
+                        </use>
+                     </svg>
+                    </div>
                     <h3 class="advantage-title">Современные технологии</h3>
                     <p class="advantage-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
@@ -334,8 +359,14 @@
     </section>
     </main>
     <footer class="footer">
-        <div class="container ">
+        <div class="container social-fl">
         <a class="logo" href="./index.html">Web<span class="logo-studio-footer">Studio</span></a>
+       
+       <div class="comon"> <h2 class="comon-text">присоединяйтесь</h2></div>
+        
+        </div> 
+        <div class="fb-contact container">          
+      <div class="contact-footer ">
         <address >
             <ul class="adress-footer link">
                 <li class="ul-footer link">
@@ -349,7 +380,49 @@
                 </li>
             </ul>
         </address>
-        </div>
+      </div>
+      <div class="fb-social">
+        <ul class="social-footer">
+                    <li class="social-link-f">
+                       <a href="">
+                           <svg>
+                               <use  width="20" height="20" class="social-icon" href="./img/icons.svg#instagram">
+
+                               </use>
+                           </svg>
+                       </a>
+                    </li>
+                    <li class="social-link-f">
+                        <a href="">
+                           <svg>
+                               <use  width="20" height="20" class="social-icon" href="./img/icons.svg#twitter">
+
+                               </use>
+                           </svg>
+                       </a>
+                    </li>
+                    <li class="social-link-f">
+                        <a href="">
+                           <svg>
+                               <use  width="20" height="20" class="social-icon" href="./img/icons.svg#facebook">
+
+                               </use>
+                           </svg>
+                       </a>
+                    </li>
+                 <li class="social-link-f">
+                        <a href="">
+                           <svg>
+                               <use  width="20" height="20" class="social-icon" href="./img/icons.svg#linkedin">
+
+                               </use>
+                           </svg>
+                       </a>
+                    </li>
+                </div>
+        </div> 
+                
+      </div>
     </footer>
   </div>
  </body>

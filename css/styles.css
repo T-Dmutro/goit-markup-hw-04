@@ -114,6 +114,13 @@ body {
    
 .adress-contakt:hover,:focus{color: var(--hover-effect-color);}
 
+.adress-contakt svg{
+    width: 16px;
+    height: 12px;
+}
+.adress-icon{
+    display: flex;
+}
 .mail{margin-left: auto;
     
     
@@ -182,7 +189,30 @@ padding-top: 94px;}
 .description:last-child{
     margin-right: 0px;
 }
-
+.description-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background-size:cover;
+    
+    background-color: #F5F4FA;
+}
+.description-box svg{
+    width: 70px;
+    height: 70px;
+}
+.description-icon{
+    
+    
+    fill:#212121;
+    /* margin: auto;
+    width: 270px; 
+    height: 120px; */
+    
+    
+}
 .advantage-title{
     display: inline-block;
     margin-bottom: 10px;
@@ -490,6 +520,13 @@ padding-bottom: 94px;}
     color: var(--secondary-title-color);
 
 }
+.social-footer{
+    display: flex;
+    
+    
+    justify-content:space-around;
+    padding-left: 0px;
+}
 .footer{
     padding-top: 60px;
     padding-bottom: 60px;
@@ -498,6 +535,44 @@ padding-bottom: 94px;}
     display: inline-block;
    /* margin-bottom: 20px;*/
     
+}
+.social-fl{
+    display: flex;
+    height: 31px;
+}
+.contact-footer{
+    display: flex;
+}
+.comon-text{
+    margin-left: 156px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.social-link-f {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 44px;
+    height: 44px;
+    fill: #AFB1B8;
+    text-decoration: none;
+    list-style: none;
+
+}
+.fb-contact{
+    display: flex;
+}
+.fb-social{
+    display: flex;
 }
 .adress-footer {
     padding-left: 0px;
