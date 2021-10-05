@@ -559,6 +559,7 @@ padding-bottom: 94px;}
 }
 .social-link-f:hover{
     background-color: var(--hover-effect-color);
+    border-radius: 50%;
 }
 .contact-footer{
     display: flex;
