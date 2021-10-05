@@ -112,7 +112,8 @@ body {
     }
     
    
-.adress-contakt:hover,:focus{color: var(--hover-effect-color);}
+.adress-contakt:hover,:focus{color: var(--hover-effect-color);
+}
 
 .adress-contakt svg{
     width: 16px;
@@ -121,10 +122,15 @@ body {
 .adress-icon{
     display: flex;
 }
-.mail{margin-left: auto;
-    
-    
+/* .adress-icon:hover{
+    fill: var(--hover-effect-color);
+} */
+.mail-hover:hover {
+    color: var(--hover-effect-color);
+    fill: var(--hover-effect-color);
 }
+.mail{margin-left: auto;
+  }
 .mail-box{
     display: inline-block;
     margin-left: auto;
