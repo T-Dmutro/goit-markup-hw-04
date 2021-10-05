@@ -367,7 +367,7 @@ margin-bottom: 30px;}
 .social-link :focus{
     background-color: var(--hover-effect-color);
 }
-.social-icon :hover{
+.social-icon:hover{
     fill: var(--adress-color);
 }   
    
@@ -553,6 +553,12 @@ padding-bottom: 94px;}
 .social-fl{
     display: flex;
     height: 31px;
+}
+.social-icon-f{
+    fill: var(--adress-color);
+}
+.social-link-f:hover{
+    background-color: var(--hover-effect-color);
 }
 .contact-footer{
     display: flex;
