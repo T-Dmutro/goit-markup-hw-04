@@ -572,7 +572,9 @@ padding-bottom: 94px;}
     display: flex;
 }
 .fb-social{
-    display: flex;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 200px;
 }
 .adress-footer {
     padding-left: 0px;
