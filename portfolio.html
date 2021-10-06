@@ -13,10 +13,10 @@
         <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-        <header>
+       <header>
         <div class="container header">
         <nav class="nav">
-        <a class="logo " href="./index.html" >Web<span class="logo-studio">Studio</span></a>
+            <div class="logo-box"><a class="logo " href="./index.html" >Web<span class="logo-studio">Studio</span></a></div>
             <ul class="ul">
                 <li>
                    <a class="btn-menu link" href="./index.html">Студия</a> 
@@ -30,17 +30,19 @@
         </nav>
         
             <ul class="mail">                
-                <li class="mail-box"><a class="adress-contakt " href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="mail-box"><a class="adress-contakt last " href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="mail-box"><div class="mail-hover"><a class="adress-contakt " href="mailto:info@devstudio.com">
+                    <svg><use width="16" height="12" class="adress-icon" href="./img/icons.svg#mail"></use></svg><span class="adress-o">info@devstudio.com</span></a></div></li>
+                <li class="mail-box"><div class="mail-hover"><a class="adress-contakt last " href="tel:+380961111111">
+                    <svg><use width="16" height="12" class="adress-icon" href="./img/icons.svg#phone"></use></svg><span class="adress-o">+38 096 111 11 11</span></a></div></li>
             </ul>
         
         </div>
     </header>
         <main>
-            <section class="galary-box">
+            <section class="galary-box container">
                 <div class="primery-section container">
                 <h2 hidden>foto</h2>
-                <ul class="ul">
+                <ul class="ik">
                     <li class="btn-section"><button class="btn-menu-portfolio" type="button">Все</button></li>
                 
                     <li class="btn-section"><button class="btn-menu-portfolio" type="button">Веб-сайты</button></li>
@@ -52,7 +54,8 @@
                     <li class="btn-section last"><button class="btn-menu-portfolio" type="button">Маркетинг</button></li>
                 </ul>
                 </div>
-                <ul class="gallery ul container">
+                <div class="container">
+                 <ul class="gallery ul ">
                     <li class="foto-gallery" >
                         <a href=""><img src="./img/tehnokrak.jpg" alt="Веб-сайт" width="370" height="294">
                         <div class="card">
@@ -110,28 +113,75 @@
                             </div></a>
                         </li>  
                 </ul>
-                
+                </div>
             </section>
 
         </main>
 
-   <footer>
-        <div class="container footer">
+    <footer class="footer">
+        <div class="container social-fl">
         <a class="logo" href="./index.html">Web<span class="logo-studio-footer">Studio</span></a>
-        <address >
-            <ul class="adress-footer">
+       
+       <div class="comon"> <h2 class="comon-text">присоединяйтесь</h2></div>
+        
+        </div> 
+        <div class="fb-contact container">          
+          <div class="contact-footer ">
+           <address >
+            <ul class="adress-footer link">
                 <li class="ul-footer link">
                     <a class="adress link" href="">г. Киев, пр-т Леси Украинки, 26</a>
                 </li>
-                <li class="ul-footer link;">
+                <li class="ul-footer link">
                     <a class="adress-contakt link" href="mailto:info@example.com">info@example.com</a>
                 </li>
                 <li class="ul-footer link">
                     <a class="adress-contakt last link" href="tel:+380991111111">+38 099 111 11 11</a>
                 </li>
             </ul>
-        </address>
-        </div>
+          </address>
+          </div>
+         <div class="fb-social">
+                 <ul class="social-footer">
+                    <li class="social-link-f">
+                       <a href="">
+                           <svg>
+                               <use  width="20" height="20" class="social-icon-f" href="./img/icons.svg#instagram">
+
+                               </use>
+                           </svg>
+                       </a>
+                    </li>
+                    <li class="social-link-f">
+                        <a href="">
+                           <svg>
+                               <use  width="20" height="20" class="social-icon-f" href="./img/icons.svg#twitter">
+
+                               </use>
+                           </svg>
+                       </a>
+                    </li>
+                    <li class="social-link-f">
+                        <a href="">
+                           <svg>
+                               <use  width="20" height="20" class="social-icon-f" href="./img/icons.svg#facebook">
+
+                               </use>
+                           </svg>
+                       </a>
+                    </li>
+                    <li class="social-link-f">
+                        <a href="">
+                           <svg>
+                               <use  width="20" height="20" class="social-icon-f" href="./img/icons.svg#linkedin">
+                               </use>
+                           </svg>
+                       </a>
+                    </li>
+                 </ul>
+        </div> 
+                
+      </div>
     </footer>
 </body>
 </html>
