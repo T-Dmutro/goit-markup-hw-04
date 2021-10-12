@@ -414,7 +414,7 @@ margin-bottom: 30px;}
     justify-content: center;
     align-items: center;
 }
-.social-link :focus{
+.social-link:focus{
     background-color: var(--hover-effect-color);
 }
 .social-icon:hover{
