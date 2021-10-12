@@ -174,7 +174,8 @@ a.logo{
 .last{margin-right: 0px;}
 
 .hero{
-    
+    margin-left: auto;
+    margin-right: auto;
     
     
     max-width: 1600px;
@@ -500,7 +501,9 @@ margin-bottom: 30px;}
     
 }
 .client-link:hover,
-.client-link:focus{fill: var(--hover-effect-color);}
+.client-link:focus{fill: var(--hover-effect-color);
+cursor:pointer;
+}
 
 .icon-client{
     display: flex;
@@ -534,17 +537,22 @@ margin-bottom: 30px;}
     background-color: var(--futer-color);
     font-style: normal;
     list-style-type: none;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*page2-portfolio*/
 .primery-section{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .logo-footer {
-    
+    display: flex;
     margin-bottom: 20px;
 }
-
+.adress-foorer-box{display: flex;}
 /* .btn-section{
     margin-right: 8px;
     
@@ -595,7 +603,8 @@ padding-bottom: 94px;}
     0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.btn-menu-portfolio:hover, :focus{
+.btn-menu-portfolio:hover,
+.btn-menu-portfolio:focus {
     color: var(--adress-color);
     background-color: var(--hover-effect-color);
 }
@@ -668,6 +677,8 @@ margin-right: 0px;
 .contact-footer{
     display: flex;
 }  */
+.comon{display: flex;
+flex-direction: column;}
 .comon-text{
     padding-bottom: 20px;
     margin-bottom: 0;
@@ -702,8 +713,10 @@ margin-right: 0px;
     display: flex;
 }
 .fb-contact{
-    
+    display: flex;
+    flex-direction: column;
     padding-right: 70px;
+    
 }
 .fb-social{
     display: inline-block;
