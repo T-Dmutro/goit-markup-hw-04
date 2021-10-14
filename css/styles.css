@@ -2,6 +2,8 @@ body {
     color: #212121;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
+    margin: 0;
+    padding: 0;
     
 }
 :root{
@@ -42,7 +44,7 @@ ul{
         padding-top: 32px;
         margin-bottom: 32px;
 }
-.header {
+.main-header {
     border-bottom: 1px solid #ECECEC;
     
 }
@@ -313,6 +315,9 @@ padding-top: 94px; padding-bottom: 94px;}
 .comand-section {
     padding-top: 94px;
     padding-bottom: 94px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: var(--section-color);}
     
 .comand{
@@ -485,8 +490,7 @@ margin-bottom: 30px;}
 
 .client-link{
     display: flex;
-    /* width: 170px;
-    height: 92px; */
+    width:100%;
     fill: #afb1b8;
     /* border: 1px solid #AFB1B8; */
     justify-content: center;
@@ -581,8 +585,20 @@ padding-bottom: 94px;}
 .gallery{
     flex-wrap: wrap;
 }
+
+.foto-link:hover,
+.foto-link:focus {
+    /* margin-right: 30px;
+    margin-bottom: 30px; */
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .foto-gallery{
-    
     margin-right: 30px;
     margin-bottom: 30px;
     border: 1px solid #EEEEEE;
@@ -591,18 +607,12 @@ padding-bottom: 94px;}
 .foto-gallery a {
     display: block;
 }
-.foto-gallery:nth-child(3n) {
+.foto-gallery:nth-child(3n){
     margin-right: 0px;}
-.foto-gallery:nth-last-child(-n+3) {
+.foto-gallery:nth-last-child(-n+3){
     margin-bottom: 0px;}
-.foto-gallery:hover,:focus{
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-    box-sizing: border-box;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
-    0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+
+
 .btn-menu-portfolio:hover,
 .btn-menu-portfolio:focus {
     color: var(--adress-color);
@@ -615,6 +625,7 @@ padding-bottom: 94px;}
     margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
+    line-height: 36px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--primary-title-color);
@@ -624,6 +635,7 @@ padding-bottom: 94px;}
     margin-top: 0px;
     padding-bottom: 20px;
     font-size: 16px;
+    line-height: 30px;
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--secondary-title-color);
